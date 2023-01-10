@@ -1,0 +1,3 @@
+1. Open anaconde terminal
+2. Navigate to the directory that contains the model(FV.h5) and the  program(Fruits_Vegetable_Classification.py) (cd C:\ComputerVision\Fruit_Vegetable_Recognition)
+3. Run the command: streamlit run Fruits_Vegetable_Classification.py
