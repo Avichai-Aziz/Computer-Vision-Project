@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-model = load_model('FV.h5')
+model = load_model('FV.h5') # Loading the model.
 
 labels = {0: 'apple', 1: 'banana', 2: 'beetroot', 3: 'bell pepper', 4: 'broccoli', 5: 'cabbage', 6: 'capsicum', 7: 'carrot', 8: 'cauliflower', 9: 'chilli pepper', 10: 'corn', 11: 'cucumber', 12: 'eggplant', 13: 'garlic', 14: 'ginger', 15: 'grapes', 16: 'jalepeno', 17: 'kiwi', 18: 'lemon',
           19: 'lettuce', 20: 'mango', 21: 'onion', 22: 'orange', 23: 'papaya', 24: 'paprika', 25: 'pear', 26: 'peas', 27: 'pineapple', 28: 'pomegranate', 29: 'potato', 30: 'raddish', 31: 'soy beans', 32: 'spinach', 33: 'sweetcorn', 34: 'sweetpotato', 35: 'tomato'}
